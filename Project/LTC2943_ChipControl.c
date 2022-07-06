@@ -123,7 +123,6 @@ Alert_t LTC2943_CheckTempretureAlert() {
     return result;
 }
 
-//TODO: Default degerler kontrol edilmeli
 bool LTC2943_SetChargeThreshold(ChargeThreshold_t threshold) {
     bool result = false;
     uint8_t data[3] = {0};

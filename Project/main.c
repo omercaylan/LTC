@@ -10,7 +10,7 @@
  */
 
 //TASK list
-//[ok] Line 64 : Get the ADC mode.
+//[ok] Line 67 : Get the ADC mode.
 //[ok] Line 77 - 82 - 86 - 91 : Change the ADC mode to automatic, scan, manual or sleep.
 //[ok] Line 96 : Check if there is a temperature alert.
 //[ok] Line 108 : Set the charge thresholds.
