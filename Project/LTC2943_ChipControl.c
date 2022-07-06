@@ -12,7 +12,7 @@
 
 #include "LTC2943_ChipControl.h"
 
-ADC_Mode_t FindADCMode(uint8_t data) {
+ADC_Mode_t LTC2943_FindADCMode(uint8_t data) {
     uint8_t mode = ((data & bit_7) | (data & bit_6));
     ADC_Mode_t result = MODE_ERROR;
     switch (mode)
